@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Masomi">
+         <activity
+            android:name=".NoteEditorActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
